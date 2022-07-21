@@ -22,9 +22,9 @@ jobs:
         java-version: '8'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven
-      run: mvn clean install --file ./pom.xml
-    - name: Upload Build Artifacts
+    - name: Build GenoaPlugin
+      run: mvn clean install
+    - name: Upload Build Result
       uses: actions/upload-artifact@v2.2.4
       with:
         name: build
