@@ -22,17 +22,6 @@ jobs:
         java-version: '8'
         distribution: 'temurin'
         cache: maven
-        
-    - name: Get Allocator Plugin
-      run: |
-          cd .github/workflows/
-          git clone --recursive https://github.com/Project-Earth-Reborn/GenoaAllocatorPlugin.git
-    - name: Build AllocatorPlugin
-      run : |
-           cd GenoaAllocatorPlugin
-           mvn clean install --file ./pom.xml
-           cd ..
-            
     - name: Build with Maven
       run: mvn clean install --file ./pom.xml
     - name: Upload Build Artifacts
