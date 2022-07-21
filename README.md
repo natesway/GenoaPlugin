@@ -1,5 +1,5 @@
 # GenoaPlugin
-[![CI](https://github.com/Project-Earth-Reborn/GenoaPlugin/actions/workflows/CI.yml/badge.svg)](https://github.com/Project-Earth-Reborn/GenoaPlugin/actions/workflows/CI.yml)  
+[![CI](https://github.com/jackcaver/GenoaPlugin/actions/workflows/CI.yml/badge.svg)](https://github.com/jackcaver/GenoaPlugin/actions/workflows/CI.yml)  
 
 A plugin for various utils to add Minecraft Earth features to Cloudburst.
 
